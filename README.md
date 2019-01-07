@@ -47,5 +47,7 @@ Side project for Java Concurrency
       
  - Intrinsic Locks 
      - belonging to or part of the real nature of something or someone
- 
+     - Because intrinsic locks are reentrant, if a thread tries to acquire 
+       a lock that it already holds, the request succeeds 
+       
  - Intrinsic Locks 

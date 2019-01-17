@@ -18,10 +18,10 @@ public class DefiningThreads {
 		 * Runnable is the job to be done
 		 */
 		Runnable myRunnable = () -> {
-				IntStream.range(1, 7)
+				IntStream.range(1, 400)
 						// .parallel()
 						.forEach(i -> System.out.println(
-								i + "Yu's job is running by thread "
+								i + " ----> Yu's job is running by thread "
 								+ Thread.currentThread().getName()));
 				};
 

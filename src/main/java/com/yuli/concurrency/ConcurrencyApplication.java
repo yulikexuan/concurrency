@@ -2,6 +2,7 @@ package com.yuli.concurrency;
 
 
 import com.yuli.concurrency.thread.LoggingWidget;
+import com.yuli.concurrency.thread.ocp8.DefiningThreads;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,6 +19,10 @@ public class ConcurrencyApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		LoggingWidget loggingWidget = new LoggingWidget();
 		loggingWidget.doSomething();
+
+		// Defining threads to run Runnables
+		DefiningThreads definingThreads = new DefiningThreads();
+		definingThreads.testRunable();
 	}
 
 }///:~

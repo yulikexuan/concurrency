@@ -30,7 +30,8 @@ public class DefiningThreads {
 		Thread thread_3 = new Thread(myRunnable, "t3");
 
 		/*
-		 * To get an actual thread—a new call stack — we have to start the thread
+		 * To get an actual thread—a new call stack — we have to start the
+		 * thread
 		 *
 		 * Start a Thread , not a Runnable .
 		 * Call start() on a Thread instance, not on a Runnable instance

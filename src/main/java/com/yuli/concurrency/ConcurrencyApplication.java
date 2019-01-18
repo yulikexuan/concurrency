@@ -2,7 +2,7 @@ package com.yuli.concurrency;
 
 
 import com.yuli.concurrency.thread.LoggingWidget;
-import com.yuli.concurrency.thread.ocp8.DefiningThreads;
+import com.yuli.concurrency.thread.ocp8.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,8 +21,11 @@ public class ConcurrencyApplication implements CommandLineRunner {
 		loggingWidget.doSomething();
 
 		// Defining threads to run Runnables
-		DefiningThreads definingThreads = new DefiningThreads();
-		definingThreads.testRunable();
+//		DefiningThreads definingThreads = new DefiningThreads();
+//		definingThreads.testRunable();
+
+		ThreadScheduler threadScheduler = new ThreadScheduler();
+		threadScheduler.investigate();
 	}
 
 }///:~

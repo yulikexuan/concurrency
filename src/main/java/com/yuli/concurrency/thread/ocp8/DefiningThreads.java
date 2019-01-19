@@ -3,6 +3,8 @@
 
 package com.yuli.concurrency.thread.ocp8;
 
+import com.yuli.concurrency.IDetective;
+
 import java.util.stream.IntStream;
 
 public class DefiningThreads implements IDetective {

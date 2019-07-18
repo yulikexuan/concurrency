@@ -51,3 +51,11 @@ Side project for Java Concurrency
        a lock that it already holds, the request succeeds 
        
  - Intrinsic Locks 
+ 
+
+### ThreadLocal & InheritableThreadLocal
+
+Resources
+- [Java.lang.InheritableThreadLocal Class with Examples](https://www.geeksforgeeks.org/java-lang-inheritablethreadlocal-class-examples/)
+- [An Introduction to ThreadLocal in Java](https://www.baeldung.com/java-threadlocal)
+- [ThreadLocal and ExecutorService](https://blog.fingo.pl/en/threadlocal-i-executorservice/)
